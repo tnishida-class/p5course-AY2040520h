@@ -24,8 +24,26 @@ function draw(){
     count += 1
     size += 2
   }
-
-
-
-
 }
+
+//下の書き方の方がすっきりしたのですが、countとcycleの意味がなくなってしまいました。
+//let size;
+
+//function setup(){
+  //createCanvas(200, 200);
+  //size = 70;
+//}
+
+//function draw(){
+  //background(160, 192, 255);
+  // BLANK[1]
+  //ellipse(width / 2, height / 2, size);
+  //size += 1;
+
+  //if(size >= 150){
+    //size = 70;
+  //}
+  //if(keyIsDown(" ".charCodeAt(0))){
+    //size += 2;
+  //}
+//}
